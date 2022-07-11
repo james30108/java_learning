@@ -1,4 +1,3 @@
-package phase1;
 public class Session2 {
     public static void main(String[] args) {
         

@@ -1,4 +1,3 @@
-package phase1;
 class Session1 {
     // function main ในการทำงาน
     public static void main(String[] argsStrings) { 

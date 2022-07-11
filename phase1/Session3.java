@@ -1,4 +1,3 @@
-package phase1;
 import java.util.Scanner;
 
 class Session3 {
