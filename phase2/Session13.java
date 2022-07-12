@@ -1,9 +1,9 @@
 import java.io.*; // ทำการ import โมดูลเข้ามา
 
-public class Session {
+public class Session13 {
     public static void main(String[] args) {
         
-        File file = new File("../demo.txt"); // ตำแหน่งของไฟล์
+        File file = new File("demo.txt"); // ตำแหน่งของไฟล์
         try {
             
             // * การจัดการไฟล์ (Java I/O)
@@ -22,8 +22,8 @@ public class Session {
             // * 3 การเขียนไฟล์ (BufferedWriter)
             FileWriter writer2 = new FileWriter(file);
             BufferedWriter bw = new BufferedWriter(writer2);
-            bw.write("Hello World Buffred");
-            bw.write("Hello World Buffred 2");
+            bw.write("Hello World Buffred \n");
+            bw.write("Hello World Buffred 2 \n");
             bw.write("Hello World Buffred 3");
             bw.close();
 
@@ -39,5 +39,5 @@ public class Session {
             //TODO: handle exception
             e.printStackTrace();
         }
-    }    
+    } 
 }
