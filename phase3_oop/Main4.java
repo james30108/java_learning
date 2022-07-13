@@ -23,5 +23,6 @@ public class Main4 {
         // * ตัวอย่าง Abstract Method
         Data4_1 programer7 = new Data4_1();
         programer7.bonus2();
+
     }
 }
